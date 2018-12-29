@@ -40,6 +40,11 @@ public final class SecurityConstants {
      */
     public static final String BASIC_AUTH_PREFIX = "Basic ";
 
+    /**
+     * The prefix for bearer auth as used in the {@link #AUTHORIZATION_HEADER}.
+     */
+    public static final String BEARER_AUTH_PREFIX = "Bearer ";
+
     private SecurityConstants() {}
 
 }
